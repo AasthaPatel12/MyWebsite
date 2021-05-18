@@ -2,6 +2,9 @@
     .nav-list{
         flex-direction: column;
     }
+    .nav-list li a{
+        font-weight: bold;
+    }
     .navbar{
         width: 100%;
         flex-direction: column;
