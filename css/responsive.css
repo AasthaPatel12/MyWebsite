@@ -3,9 +3,13 @@
         flex-direction: column;
     }
     .navbar{
+        width: 100%;
         flex-direction: column;
         height: 400px;
         transition: all 0.5s ease-out;
+    }
+    .logo img{
+        display: none;
     }
     .rightNav{
         text-align: center;
@@ -30,6 +34,9 @@
     }
     .v{
         opacity: 0;
+    }
+    .box-main{
+        justify-content: flex-end;
     }
     .aboutMe{
         flex-direction: column;
