@@ -38,6 +38,9 @@
     .box-main{
         justify-content: flex-end;
     }
+    .background div br{
+        display: none;
+    }
     .aboutMe{
         flex-direction: column;
     }
