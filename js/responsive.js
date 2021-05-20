@@ -9,7 +9,7 @@ burger.addEventListener('click', () => {
     rightNav.classList.toggle('v');
     navbar.classList.toggle('h-nav');
 })
-
+/*
 var slide = document.getElementById("slider");
 var btn1 = document.getElementById('btn1');
 var btn2 = document.getElementById('btn2');
@@ -43,4 +43,4 @@ btn4.onclick = function () {
     btn2.classList.remove('active');
     btn3.classList.remove('active');
     btn4.classList.add('active');
-};
+};*/
