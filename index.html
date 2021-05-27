@@ -19,7 +19,7 @@
             <!-- Left Navigation part -->
             <ul class="nav-list v">
                 <div class="logo"><img src="./img/alogo.jpg" alt="logo"></div>
-                <li><a href="#home">Home</a></li>
+                <li><a href="#home" id="tic">Home</a></li>
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#query">Query Form</a></li>
@@ -67,7 +67,7 @@
                 programming. In my life I have one very strong ambision is that to make my mom & dad proud on me. I also
                 want to be an inspiration for everybody by doing something Different.
             </p>
-        </div >
+        </div>
         <div class="me"><img src="./img/girl.jpg" alt="My pic"> <!-- girl pic for about me section-->
         </div>
     </div>
@@ -90,21 +90,6 @@
             <div class="pic" id="p5"></div>
         </div>
     </div>
-    <!-- responsive slider -->
-    <!-- <div id="grid">
-        <div class="slider" id="slider">
-            <img src="./img/p1.jpg" alt="gid pic">
-            <img src="./img/p2.jpg" alt="gid pic">
-            <img src="./img/p4.jpg" alt="gid pic">
-            <img src="./img/p5.jpg" alt="gid pic">
-        </div>
-        <div class="indicator">
-            <span id="btn1"></span>
-            <span id="btn2"></span>
-            <span id="btn3"></span>
-            <span id="btn4"></span>
-        </div>
-    </div> -->
     <!-- query form part -->
     <div class="bg2">
         <!-- to set backgroud in query form part-->
@@ -126,7 +111,14 @@
                     </div>
                     <div>
                         E-mail address:- <br>
-                        <input type="email" placeholder="abc@xyz.com" />
+                        <input type="email" placeholder="abc@xyz.com" /> <br> <br>
+                        No. Of Query:-
+                    </div>
+                    <div class="counter">
+                        <button id="one" class="box comon">-</button>
+                        <button id="two" class="box"></button>
+                        <button id="three" class="box comon">+</button>
+                        <button id="four" class="box comon">Reset</button>
                     </div>
                     <div>
                         write your query:- <br>
@@ -160,4 +152,5 @@
     </footer>
     <script src="./js/responsive.js"></script>
 </body>
+
 </html>

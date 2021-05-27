@@ -317,4 +317,40 @@ html{
     padding: 20px;
     margin-bottom: 15px;
 }
+/* css for counter which is in query form  */
+.counter{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 0;
+}
+.box{
+  margin: 0px 5px;
+}
+#two{
+  border: 2px solid black;
+  padding-left: 4px;
+  padding-right: 4px;
+  width: 30px;
+  height: 25px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+}
+.comon{
+  padding-left: 5px;
+  padding-right: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.6);
 
+}
+.comon:hover{
+  background: white;
+  border-radius: 3px solid black;
+}
+.comon:active{
+  background-color: rgb(111, 111, 241);
+}
