@@ -1,12 +1,12 @@
 burger = document.querySelector('.burger')
-navbar = document.querySelector('.navbar')
+nav = document.querySelector('.nav')
 rightNav = document.querySelector('.rightNav')
 navList = document.querySelector('.nav-list')
 
 burger.addEventListener('click', () => {
     navList.classList.toggle('v');
     rightNav.classList.toggle('v');
-    navbar.classList.toggle('h-nav');
+    nav.classList.toggle('h-nav');
 })
 var input = 0;
 var counter = document.querySelector('.counter')
