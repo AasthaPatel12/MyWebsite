@@ -1,63 +1,107 @@
-@media screen and (max-width:950px) {
-    .nav-list{
-        flex-direction: column;
-    }
-    .nav-list li a{
-        font-weight: bold;
-    }
-    .nav{
-        width: 100%;
-        flex-direction: column;
-        height: 400px;
-        transition: all 0.5s ease-out;
-    }
-    .log img{
-        display: none;
-    }
-    .rightNav{
-        text-align: center;
-    }
-    .rightNav button{
-        background: white;
-        color: black;
-        border: 2px solid black;
-    }
-    .rightNav button:hover{
-        background-color: rgba(255, 255, 255, 0.6);
-    }
-    #search{
-        width: 100%;
-    }
-    .burger{
+@media screen and (max-width: 950px) {
+  .nav-list {
+    flex-direction: column;
+  }
+  .nav-list li a {
+    font-weight: bold;
+  }
+  .nav {
+    width: 100%;
+    flex-direction: column;
+    height: 400px;
+    transition: all 0.5s ease-out;
+  }
+  .log img {
+    display: none;
+  }
+  .rightNav {
+    text-align: center;
+  }
+  .rightNav button {
+    background: white;
+    color: black;
+    border: 2px solid black;
+  }
+  .rightNav button:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+  #search {
+    width: 100%;
+  }
+  .burger {
     position: absolute;
     cursor: pointer;
     right: 5%;
     top: 15px;
-    }
-    .line{
+  }
+  .line {
     width: 33px;
     background-color: rgb(255, 255, 255);
     height: 4px;
     margin: 5px 3px;
-    }
-    .h-nav{
-        height: 72px;
-    }
-    .v{
-        opacity: 0;
-    }
-    .box-main{
-        justify-content: flex-end;
-    }
-    .aboutMe{
-        flex-direction: column;
-    }
-    .me img{
-        border: 2px solid black;
-        width: 100%;
-        margin: 20px 10px;
-    }
-    .grid{
-        display: none;
-    }
+  }
+  .h-nav {
+    height: 72px;
+  }
+  .v {
+    opacity: 0;
+  }
+  .box-main {
+    justify-content: flex-end;
+  }
+  .aboutMe {
+    flex-direction: column;
+  }
+  .me img {
+    border: 2px solid black;
+    width: 100%;
+    margin: 20px 10px;
+  }
+  .grid {
+    display: none;
+  }
+  /* carousal css */
+.c1{
+  width: 100%;
+  height: 80vh;
+  background: url('../img/p1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.c2{
+  width: 100%;
+  height: 80vh;
+  background: url('../img/p2.jpg');
+  background-size: cover;
+}
+.c3{
+  width: 100%;
+  height: 80vh;
+  background: url('../img/p4.jpg');
+  background-size: cover;
+    background-position: center;
+}
+.c4{
+  width: 100%;
+  height: 80vh;
+  background: url('../img/p5.jpg');
+  background-size: cover;
+  background-position-y: center;
+}
+.c5{
+    height: 80vh;
+}
+.car{
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+}
+@media screen and (min-width: 950px) {
+  .slide {
+    display: none;
+  }
 }
