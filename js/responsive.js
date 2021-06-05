@@ -4,8 +4,8 @@ rightNav = document.querySelector('.rightNav')
 navList = document.querySelector('.nav-list')
 
 burger.addEventListener('click', () => {
+    console.log('hello');
     navList.classList.toggle('v');
-    rightNav.classList.toggle('v');
     nav.classList.toggle('h-nav');
 })
 var input = 0;
