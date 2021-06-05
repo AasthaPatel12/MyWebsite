@@ -1,13 +1,21 @@
-burger = document.querySelector('.burger')
-nav = document.querySelector('.nav')
+burger = document.querySelector('.burger');
+nav = document.querySelector('.nav');
 rightNav = document.querySelector('.rightNav')
-navList = document.querySelector('.nav-list')
+navList = document.querySelector('.nav-list');
+ele = document.getElementsByClassName('ele')
 
 burger.addEventListener('click', () => {
-    console.log('hello');
     navList.classList.toggle('v');
     nav.classList.toggle('h-nav');
 })
+
+for (let i = 0; i < ele.length; i++) {
+    ele[i].addEventListener('click', () => {
+        navList.classList.toggle('v');
+        nav.classList.toggle('h-nav');
+    })
+}
+
 var input = 0;
 var counter = document.querySelector('.counter')
 var box1 = document.getElementById('one')
